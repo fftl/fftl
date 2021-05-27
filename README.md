@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+My blog - https://velog.io/@fftl
+
 <!--
 **fftl/fftl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
