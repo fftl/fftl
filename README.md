@@ -1,29 +1,54 @@
 ### 🖐 안녕하세요. 이동민입니다.
-#### 다양한 기술에 관심이 있으며 Back-End, Data를 주로 다루고 있습니다.
+#### 백엔드 개발과 인프라 운영 경험을 바탕으로 데이터 엔지니어링과 데이터 품질을 다루고 있습니다.
+
+---
+
+### 🧭 About
+- 현재 시스템 운영, 통계 데이터 추출, 데이터 품질진단 업무를 담당하고 있습니다.
+- **Java 백엔드 → 인프라/DevOps → 데이터 품질·데이터 엔지니어링** 순으로 경험 영역을 넓혀 왔습니다.
+- **데이터 엔지니어**를 목표로 하며, 이후 ML/MLOps 영역으로 확장하고자 합니다.
+
+---
+
+### 📊 Data Engineering
+- **Airflow → BigQuery → dbt** 기반 배치 파이프라인을 구축하고 Looker Studio로 시각화했습니다.
+  - OCI ARM 인스턴스에서 운영하며, 수집 소스별 실패 처리를 설계에 반영했습니다.
+- **Upbit WebSocket → Kafka → BigQuery → dbt** 실시간 스트리밍 파이프라인을 진행하고 있습니다.
+- Python(Pandas)으로 데이터를 정제·가공하고, BeautifulSoup·Selenium으로 데이터를 수집합니다.
+
+### ✅ Data Quality
+- 공공기관 운영 DB(Oracle)를 대상으로 **데이터 품질진단(SDQ)** 을 수행했습니다.
+  - 테이블 정의서와 데이터 프로파일링 결과를 근거로 업무규칙을 도출합니다.
+  - DB 제약조건과 업무규칙을 구분하여 검증 쿼리를 작성합니다.
+  - 약 114개 테이블 진단 → 오류 데이터 정정 및 진단범위 조정 → 재진단 결과 오류율 0%
+
+### 🗄️ Database & SQL
+- **Oracle SQL**: 실행계획 분석, 조인 방식 이해, GROUP BY 확장 함수, 품질 검증·통계 추출 쿼리 작성
+- ERD 설계와 정규화를 통한 데이터베이스 구조 설계, 인덱스 설계
+- SQL 심화 학습을 위해 SQLP 범위를 지속적으로 학습하고 있습니다.
 
 ---
 
 ### 💻 Language
-- **Java, Python, TypeScript**를 사용할 수 있습니다.
-  - **Java**를 가장 많이 사용하며 Spring Boot를 이용한 API 서버를 만들 수 있습니다.
-- **Python**은 데이터를 다룰 때 사용합니다.
-  - BeautifulSoup와 Selenium을 이용한 크롤링을 할 수 있습니다.
-  - Pandas를 이용한 데이터 정제를 할 수 있습니다.
-  - FastAPI를 이용해 간단한 데이터 전달 API를 만들 수 있습니다.
-- **TypeScript**는 Vue 기반 프론트엔드 개발에 사용합니다.
+- **Java** — Spring Boot 기반 REST API 서버 개발
+- **Python** — 데이터 수집·정제, 파이프라인 작업, FastAPI 기반 간단한 API
+- **TypeScript** — Vue 기반 프론트엔드 개발
+- **SQL** — Oracle, MySQL, BigQuery
 
-### 📊 Data
-- ERD 설계 및 정규화를 통한 효율적인 데이터베이스 구조 설계를 할 수 있습니다.
-- 주로 관계형 DB를 사용하며 Index 설계의 중요성에 대해 이해하고 있습니다.
-- SQL의 심화된 학습을 위해 **SQLP 자격증**을 위한 공부를 하고 있습니다.
-- Kaggle의 dataset 및 Code를 보며 데이터 분석에 대한 학습을 하고 있습니다.
+### ☁️ Infra & DevOps
+- **AWS EC2, Oracle Cloud(OCI)** 인스턴스 운영
+- **Ubuntu** 서버에서 Docker Compose 기반 멀티 컨테이너 환경 구성, Portainer로 모니터링
+- **Nginx** 리버스 프록시 구성
+- **Jenkins, GitHub Actions** 기반 빌드·배포 자동화
+  - Jenkins·Spring Boot·MySQL을 Docker 컨테이너로 구성한 배포 환경 구축
 
-### ☁️ Infra & Cloud
-- **AWS, Oracle Cloud** 두 플랫폼에서 제공하는 EC2, Instance 서버를 사용하고 있습니다.
-- **Ubuntu** 서버를 주로 사용하며 Docker Compose를 활용한 멀티 컨테이너 환경을 구성합니다.
-  - Portainer를 이용해 Docker 컨테이너를 모니터링하고 관리하는 데 사용합니다.
-- K8s의 용도에 대해 이해하고 있으며, 아직 이를 사용해본 경험은 없습니다.
-- **Nginx**를 이용해 리버스 프록시를 적용해 서버를 다루고 있습니다.
+---
 
-### 🚀 CI/CD
-- **Jenkins, GitHub Actions**를 통해 자동화된 빌드 및 배포 파이프라인을 구축할 수 있습니다.
+### 📁 Projects
+| 프로젝트 | 내용 | 기술 스택 | 상태 |
+|---|---|---|---|
+| [hotdeal-pipeline](https://github.com/fftl/hotdeal-pipeline) <!-- 레포 URL 확인 필요 --> | 커뮤니티 핫딜 RSS 수집·적재·변환·시각화 배치 파이프라인 | Airflow, BigQuery, dbt, Looker Studio, OCI | 완료 |
+| Habitat <!-- URL 확인 필요 --> | 팀 프로젝트, 백엔드 API 서버 및 배포 환경 구축 담당 | Java, Spring Boot, MySQL, Docker, Jenkins | 완료 |
+| 우리가족 거우리 <!-- URL 확인 필요 --> | 팀 프로젝트, 백엔드 API 서버 및 배포 환경 구축 담당 | Java, Spring Boot, MySQL, Docker, Jenkins | 완료 |
+
+---
